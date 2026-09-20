@@ -1,0 +1,13 @@
+{
+  "name": "it-service-center",
+  "version": "1.0.0",
+  "description": "IT 部門客服中心：報修、提問、智慧診斷與客服人員工作台",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "reseed": "node -e \"require('fs').rmSync('data/db.json',{force:true});console.log('已清除資料，下次啟動會重新產生範例資料')\""
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
