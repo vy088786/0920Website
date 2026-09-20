@@ -1,0 +1,2769 @@
+{
+  "meta": {
+    "seq": {
+      "ticket": 37
+    }
+  },
+  "users": [
+    {
+      "id": "S001",
+      "name": "陳志明",
+      "dept": "資訊部",
+      "title": "IT 客服工程師（一線）",
+      "role": "staff",
+      "ext": "1201",
+      "email": "s001@corp.example"
+    },
+    {
+      "id": "S002",
+      "name": "林雅婷",
+      "dept": "資訊部",
+      "title": "IT 客服工程師（網路/資安）",
+      "role": "staff",
+      "ext": "1202",
+      "email": "s002@corp.example"
+    },
+    {
+      "id": "S003",
+      "name": "王建宏",
+      "dept": "資訊部",
+      "title": "IT 主管",
+      "role": "staff",
+      "ext": "1200",
+      "email": "s003@corp.example"
+    },
+    {
+      "id": "E1001",
+      "name": "張小明",
+      "dept": "業務部",
+      "title": "業務專員",
+      "role": "user",
+      "ext": "3105",
+      "email": "e1001@corp.example"
+    },
+    {
+      "id": "E1002",
+      "name": "李美玲",
+      "dept": "財務部",
+      "title": "會計",
+      "role": "user",
+      "ext": "3212",
+      "email": "e1002@corp.example"
+    },
+    {
+      "id": "E1003",
+      "name": "黃俊傑",
+      "dept": "研發部",
+      "title": "軟體工程師",
+      "role": "user",
+      "ext": "4018",
+      "email": "e1003@corp.example"
+    },
+    {
+      "id": "E1004",
+      "name": "吳佩珊",
+      "dept": "人資部",
+      "title": "人資專員",
+      "role": "user",
+      "ext": "3301",
+      "email": "e1004@corp.example"
+    },
+    {
+      "id": "E1005",
+      "name": "劉家豪",
+      "dept": "行銷部",
+      "title": "設計師",
+      "role": "user",
+      "ext": "3420",
+      "email": "e1005@corp.example"
+    },
+    {
+      "id": "E1006",
+      "name": "蔡宜庭",
+      "dept": "法務部",
+      "title": "法務專員",
+      "role": "user",
+      "ext": "3510",
+      "email": "e1006@corp.example"
+    },
+    {
+      "id": "E1007",
+      "name": "鄭凱文",
+      "dept": "研發部",
+      "title": "資深工程師",
+      "role": "user",
+      "ext": "4022",
+      "email": "e1007@corp.example"
+    },
+    {
+      "id": "E1008",
+      "name": "許雅涵",
+      "dept": "業務部",
+      "title": "業務經理",
+      "role": "user",
+      "ext": "3108",
+      "email": "e1008@corp.example"
+    },
+    {
+      "id": "E1009",
+      "name": "楊承翰",
+      "dept": "採購部",
+      "title": "採購專員",
+      "role": "user",
+      "ext": "3615",
+      "email": "e1009@corp.example"
+    },
+    {
+      "id": "E1010",
+      "name": "謝淑芬",
+      "dept": "總務部",
+      "title": "總務專員",
+      "role": "user",
+      "ext": "3701",
+      "email": "e1010@corp.example"
+    }
+  ],
+  "devices": [
+    {
+      "id": "NB-0231",
+      "assetTag": "NB-0231",
+      "hostname": "NB-0231-E1001",
+      "ownerId": "E1001",
+      "type": "筆電",
+      "brand": "Dell",
+      "model": "Latitude 5440",
+      "os": "Windows 11 23H2",
+      "cpu": "Core i5-1345U",
+      "ramGB": 16,
+      "storage": "512GB SSD",
+      "diskFreePct": 6,
+      "purchaseDate": "2025-04-18",
+      "warrantyEnd": "2028-04-17",
+      "lastPatchDate": "2026-09-08",
+      "antivirus": "正常",
+      "batteryHealthPct": 88,
+      "uptimeDays": 27,
+      "location": "台北總部 5F",
+      "primary": true
+    },
+    {
+      "id": "NB-0118",
+      "assetTag": "NB-0118",
+      "hostname": "NB-0118-E1002",
+      "ownerId": "E1002",
+      "type": "筆電",
+      "brand": "HP",
+      "model": "EliteBook 840 G8",
+      "os": "Windows 10 22H2",
+      "cpu": "Core i5-1135G7",
+      "ramGB": 8,
+      "storage": "256GB SSD",
+      "diskFreePct": 14,
+      "purchaseDate": "2022-03-15",
+      "warrantyEnd": "2025-03-14",
+      "lastPatchDate": "2026-06-17",
+      "antivirus": "正常",
+      "batteryHealthPct": 48,
+      "uptimeDays": 5,
+      "location": "台北總部 3F",
+      "primary": true
+    },
+    {
+      "id": "NB-0302",
+      "assetTag": "NB-0302",
+      "hostname": "NB-0302-E1003",
+      "ownerId": "E1003",
+      "type": "筆電",
+      "brand": "Lenovo",
+      "model": "ThinkPad T14 Gen 3",
+      "os": "Windows 11 23H2",
+      "cpu": "Core i7-1260P",
+      "ramGB": 32,
+      "storage": "1TB SSD",
+      "diskFreePct": 55,
+      "purchaseDate": "2025-11-24",
+      "warrantyEnd": "2028-11-23",
+      "lastPatchDate": "2026-08-31",
+      "antivirus": "病毒碼過舊",
+      "batteryHealthPct": 92,
+      "uptimeDays": 3,
+      "location": "研發中心 2F",
+      "primary": true
+    },
+    {
+      "id": "PC-0057",
+      "assetTag": "PC-0057",
+      "hostname": "PC-0057-E1004",
+      "ownerId": "E1004",
+      "type": "桌機",
+      "brand": "Dell",
+      "model": "OptiPlex 7090",
+      "os": "Windows 11 23H2",
+      "cpu": "Core i5-11500",
+      "ramGB": 16,
+      "storage": "512GB SSD",
+      "diskFreePct": 40,
+      "purchaseDate": "2023-09-16",
+      "warrantyEnd": "2026-09-15",
+      "lastPatchDate": "2026-08-21",
+      "antivirus": "正常",
+      "batteryHealthPct": null,
+      "uptimeDays": 9,
+      "location": "台北總部 3F",
+      "primary": true
+    },
+    {
+      "id": "NB-0277",
+      "assetTag": "NB-0277",
+      "hostname": "NB-0277-E1005",
+      "ownerId": "E1005",
+      "type": "筆電",
+      "brand": "Apple",
+      "model": "MacBook Pro 14\" (M2 Pro)",
+      "os": "macOS 14.5",
+      "cpu": "Apple M2 Pro",
+      "ramGB": 16,
+      "storage": "512GB SSD",
+      "diskFreePct": 35,
+      "purchaseDate": "2025-01-28",
+      "warrantyEnd": "2026-01-28",
+      "lastPatchDate": "2026-09-05",
+      "antivirus": "正常",
+      "batteryHealthPct": 91,
+      "uptimeDays": 6,
+      "location": "台北總部 4F",
+      "primary": true
+    },
+    {
+      "id": "NB-0190",
+      "assetTag": "NB-0190",
+      "hostname": "NB-0190-E1006",
+      "ownerId": "E1006",
+      "type": "筆電",
+      "brand": "ASUS",
+      "model": "ExpertBook B5",
+      "os": "Windows 11 23H2",
+      "cpu": "Core i5-1240P",
+      "ramGB": 8,
+      "storage": "512GB SSD",
+      "diskFreePct": 22,
+      "purchaseDate": "2024-04-03",
+      "warrantyEnd": "2027-04-03",
+      "lastPatchDate": "2026-08-11",
+      "antivirus": "正常",
+      "batteryHealthPct": 70,
+      "uptimeDays": 20,
+      "location": "台北總部 6F",
+      "primary": true
+    },
+    {
+      "id": "NB-0305",
+      "assetTag": "NB-0305",
+      "hostname": "NB-0305-E1007",
+      "ownerId": "E1007",
+      "type": "筆電",
+      "brand": "Lenovo",
+      "model": "ThinkPad T14 Gen 3",
+      "os": "Windows 11 23H2",
+      "cpu": "Core i7-1260P",
+      "ramGB": 16,
+      "storage": "512GB SSD",
+      "diskFreePct": 33,
+      "purchaseDate": "2025-12-14",
+      "warrantyEnd": "2028-12-13",
+      "lastPatchDate": "2026-09-10",
+      "antivirus": "正常",
+      "batteryHealthPct": 95,
+      "uptimeDays": 2,
+      "location": "研發中心 2F",
+      "primary": true
+    },
+    {
+      "id": "PC-0112",
+      "assetTag": "PC-0112",
+      "hostname": "PC-0112-E1007",
+      "ownerId": "E1007",
+      "type": "桌機",
+      "brand": "HP",
+      "model": "ProDesk 400 G7",
+      "os": "Windows 11 23H2",
+      "cpu": "Core i5-10500",
+      "ramGB": 16,
+      "storage": "512GB SSD",
+      "diskFreePct": 48,
+      "purchaseDate": "2023-02-28",
+      "warrantyEnd": "2026-02-27",
+      "lastPatchDate": "2026-08-16",
+      "antivirus": "正常",
+      "batteryHealthPct": null,
+      "uptimeDays": 40,
+      "location": "研發中心 2F",
+      "primary": false
+    },
+    {
+      "id": "NB-0233",
+      "assetTag": "NB-0233",
+      "hostname": "NB-0233-E1008",
+      "ownerId": "E1008",
+      "type": "筆電",
+      "brand": "Dell",
+      "model": "Latitude 5440",
+      "os": "Windows 11 23H2",
+      "cpu": "Core i5-1345U",
+      "ramGB": 16,
+      "storage": "512GB SSD",
+      "diskFreePct": 45,
+      "purchaseDate": "2025-05-08",
+      "warrantyEnd": "2028-05-07",
+      "lastPatchDate": "2026-09-02",
+      "antivirus": "正常",
+      "batteryHealthPct": 86,
+      "uptimeDays": 8,
+      "location": "台北總部 5F",
+      "primary": true
+    },
+    {
+      "id": "NB-0119",
+      "assetTag": "NB-0119",
+      "hostname": "NB-0119-E1009",
+      "ownerId": "E1009",
+      "type": "筆電",
+      "brand": "HP",
+      "model": "EliteBook 840 G8",
+      "os": "Windows 10 22H2",
+      "cpu": "Core i5-1135G7",
+      "ramGB": 8,
+      "storage": "256GB SSD",
+      "diskFreePct": 9,
+      "purchaseDate": "2022-03-25",
+      "warrantyEnd": "2025-03-24",
+      "lastPatchDate": "2026-05-13",
+      "antivirus": "正常",
+      "batteryHealthPct": 55,
+      "uptimeDays": 16,
+      "location": "台北總部 4F",
+      "primary": true
+    },
+    {
+      "id": "PC-0058",
+      "assetTag": "PC-0058",
+      "hostname": "PC-0058-E1010",
+      "ownerId": "E1010",
+      "type": "桌機",
+      "brand": "Dell",
+      "model": "OptiPlex 7090",
+      "os": "Windows 11 23H2",
+      "cpu": "Core i5-11500",
+      "ramGB": 16,
+      "storage": "512GB SSD",
+      "diskFreePct": 61,
+      "purchaseDate": "2023-09-16",
+      "warrantyEnd": "2026-09-15",
+      "lastPatchDate": "2026-08-29",
+      "antivirus": "正常",
+      "batteryHealthPct": null,
+      "uptimeDays": 12,
+      "location": "台北總部 1F",
+      "primary": true
+    }
+  ],
+  "kb": [
+    {
+      "id": "KB-001",
+      "title": "電腦執行變慢或卡頓",
+      "category": "作業系統",
+      "keywords": [
+        "慢",
+        "卡",
+        "卡頓",
+        "很久",
+        "變慢",
+        "跑不動",
+        "lag",
+        "延遲",
+        "效能",
+        "當機",
+        "無回應",
+        "未回應",
+        "反應遲鈍",
+        "轉圈"
+      ],
+      "symptoms": "開機時間變長、開啟程式或檔案很久、滑鼠游標延遲、視窗常顯示未回應",
+      "escalateWhen": "完成以上步驟仍未改善，或同一台電腦反覆發生。",
+      "causes": [
+        {
+          "text": "系統磁碟空間不足",
+          "rc": "磁碟空間不足",
+          "check": "disk_low",
+          "steps": [
+            "開啟「設定 > 系統 > 儲存空間」，確認 C 槽剩餘空間（建議保留 15% 以上）",
+            "執行「儲存空間感知」或「磁碟清理」，清除暫存檔、資源回收筒與 Windows Update 清理檔",
+            "把下載資料夾內的大型檔案移到網路磁碟或 OneDrive",
+            "完成後重新開機並觀察速度是否恢復"
+          ]
+        },
+        {
+          "text": "開機啟動項目過多",
+          "rc": "開機啟動項過多",
+          "steps": [
+            "按 Ctrl+Shift+Esc 開啟工作管理員，切換到「啟動應用程式」",
+            "把「啟動影響」為高、且非必要的項目（雲端同步、通訊軟體等）設為停用",
+            "重新開機"
+          ]
+        },
+        {
+          "text": "Windows 更新未完成或卡住",
+          "rc": "Windows 更新未完成",
+          "check": "patch_old",
+          "steps": [
+            "開啟「設定 > Windows Update」，檢查並安裝所有更新",
+            "看到「需要重新啟動」時，儲存工作後立即重新開機",
+            "若更新一直失敗，請記下錯誤代碼並轉客服人員"
+          ]
+        },
+        {
+          "text": "記憶體不足",
+          "rc": "記憶體不足",
+          "check": "ram_low",
+          "steps": [
+            "在工作管理員的「效能」頁籤確認記憶體使用率是否長期高於 85%",
+            "關閉不使用的瀏覽器分頁與應用程式",
+            "若長期不足，請報修申請記憶體升級評估"
+          ]
+        },
+        {
+          "text": "長時間未重新開機",
+          "check": "uptime_long",
+          "steps": [
+            "儲存工作後，選擇「重新啟動」（不是睡眠或關閉螢幕）",
+            "之後至少每週重新啟動一次"
+          ]
+        },
+        {
+          "text": "惡意程式或儲存裝置老化",
+          "rc": "惡意軟體感染",
+          "check": "av_bad",
+          "steps": [
+            "執行 Windows 安全性的「完整掃描」",
+            "若掃描出威脅、硬碟有異音或速度仍異常，請轉客服人員檢測"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "KB-002",
+      "title": "Wi-Fi 連不上或經常斷線",
+      "category": "網路/VPN",
+      "keywords": [
+        "wifi",
+        "wi-fi",
+        "無線",
+        "連不上網",
+        "沒有網路",
+        "斷線",
+        "網路很慢",
+        "無法上網",
+        "上不了網",
+        "網路中斷",
+        "網路不穩",
+        "網路"
+      ],
+      "symptoms": "顯示已連線但無法上網、Wi-Fi 圖示出現驚嘆號、網路時好時壞",
+      "escalateWhen": "同一地點多人同時斷線，可能是 AP 或交換器問題，請轉客服人員。",
+      "causes": [
+        {
+          "text": "Wi-Fi 驅動程式異常",
+          "rc": "Wi-Fi 驅動程式異常",
+          "check": "patch_old",
+          "steps": [
+            "先關閉再開啟 Wi-Fi（或開關一次飛航模式）",
+            "在「裝置管理員 > 網路介面卡」把無線網卡停用後再啟用",
+            "重新啟動電腦"
+          ]
+        },
+        {
+          "text": "DNS 快取異常",
+          "rc": "DNS 快取異常",
+          "steps": [
+            "Windows：以系統管理員身分開啟命令提示字元，執行 ipconfig /flushdns 與 netsh winsock reset",
+            "Mac：在終端機執行 sudo dscacheutil -flushcache",
+            "重新啟動電腦後再連線"
+          ]
+        },
+        {
+          "text": "連到訊號較弱或壅塞的 SSID",
+          "rc": "SSID 訊號不佳",
+          "steps": [
+            "改連公司 5GHz 的 Corp-WiFi-5G",
+            "靠近無線基地台後再測試"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "KB-003",
+      "title": "VPN 無法連線",
+      "category": "網路/VPN",
+      "keywords": [
+        "vpn",
+        "遠端連線",
+        "在家連不上",
+        "globalprotect",
+        "無法連公司",
+        "遠端上班",
+        "連不進公司",
+        "遠端"
+      ],
+      "symptoms": "VPN 一直轉圈、顯示驗證失敗、連上後又自動中斷",
+      "escalateWhen": "換網路與更新用戶端後仍失敗，請轉客服人員檢查帳號的 VPN 權限。",
+      "causes": [
+        {
+          "text": "VPN 用戶端版本過舊",
+          "rc": "VPN 用戶端版本過舊",
+          "steps": [
+            "開啟 GlobalProtect > 設定，確認版本需為 6.2 以上",
+            "至公司軟體中心下載最新版並重新啟動",
+            "重新連線至入口 vpn.corp.example"
+          ]
+        },
+        {
+          "text": "密碼過期或帳號被鎖定",
+          "rc": "密碼過期",
+          "steps": [
+            "先登入 https://portal.corp.example，確認帳號可以正常登入",
+            "若提示密碼過期，依畫面變更密碼後再連 VPN"
+          ]
+        },
+        {
+          "text": "目前的網路封鎖了 VPN 連接埠",
+          "rc": "網路環境封鎖 VPN",
+          "steps": [
+            "改用手機熱點測試",
+            "若熱點可以連線，代表目前的網路（如飯店、公共 Wi-Fi）擋住 VPN，請換一個網路"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "KB-004",
+      "title": "忘記密碼或帳號被鎖定",
+      "category": "帳號/權限",
+      "keywords": [
+        "密碼",
+        "忘記密碼",
+        "帳號被鎖",
+        "鎖定",
+        "無法登入",
+        "登入失敗",
+        "登不進",
+        "過期",
+        "重設密碼",
+        "解鎖"
+      ],
+      "symptoms": "登入時顯示密碼錯誤、帳號已鎖定，或提示密碼已過期",
+      "escalateWhen": "自助重設失敗，或需要驗證身分時，請轉客服人員。",
+      "causes": [
+        {
+          "text": "密碼已過期",
+          "rc": "密碼過期",
+          "steps": [
+            "前往自助重設入口 https://pwd.corp.example",
+            "以手機驗證身分後設定新密碼（需 12 碼以上，含大小寫與數字）"
+          ]
+        },
+        {
+          "text": "多次輸入錯誤導致帳號被鎖定",
+          "rc": "帳號多次輸入錯誤被鎖定",
+          "steps": [
+            "等待 30 分鐘後系統會自動解鎖，或使用自助重設入口立即解鎖",
+            "輸入時確認大小寫鍵與輸入法狀態"
+          ]
+        },
+        {
+          "text": "手機或其他裝置仍使用舊密碼",
+          "rc": "舊密碼在其他裝置持續驗證",
+          "steps": [
+            "更新手機郵件、行事曆與 Wi-Fi 中儲存的公司密碼",
+            "把不再使用的舊裝置從帳號中移除"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "KB-005",
+      "title": "Outlook 無法收信、開啟很慢或卡住",
+      "category": "電子郵件",
+      "keywords": [
+        "outlook",
+        "信箱",
+        "收不到信",
+        "收信",
+        "寄信",
+        "郵件",
+        "離線",
+        "信件",
+        "mail",
+        "寄不出",
+        "信箱已滿"
+      ],
+      "symptoms": "Outlook 顯示離線或中斷連線、收發信件延遲、啟動要好幾分鐘",
+      "escalateWhen": "重建設定檔後仍異常，或整個部門都收不到信，請轉客服人員。",
+      "causes": [
+        {
+          "text": "信箱容量已滿",
+          "rc": "Outlook 信箱容量已滿",
+          "steps": [
+            "在 Outlook 的「檔案 > 資訊」查看信箱容量",
+            "清空「刪除的郵件」與「垃圾郵件」，並把舊信件封存",
+            "容量降到 90% 以下後重新啟動 Outlook"
+          ]
+        },
+        {
+          "text": "Outlook 快取檔損毀",
+          "rc": "Outlook 快取檔損毀",
+          "steps": [
+            "關閉 Outlook，開啟「控制台 > 郵件 > 資料檔案」",
+            "刪除本機 OST 快取檔（不會刪除伺服器上的信件）",
+            "重新開啟 Outlook，等待重新同步"
+          ]
+        },
+        {
+          "text": "增益集（Add-in）造成延遲",
+          "rc": "Outlook 增益集",
+          "steps": [
+            "按住 Ctrl 鍵開啟 Outlook 進入「安全模式」",
+            "若安全模式正常，到「檔案 > 選項 > 增益集」停用非必要的增益集"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "KB-006",
+      "title": "印表機無法列印或列印異常",
+      "category": "印表機/週邊",
+      "keywords": [
+        "印表機",
+        "列印",
+        "印不出",
+        "亂碼",
+        "卡紙",
+        "影印機",
+        "掃描",
+        "列印佇列",
+        "printer",
+        "印出來"
+      ],
+      "symptoms": "按下列印沒反應、顯示離線、列印出亂碼或空白頁",
+      "escalateWhen": "多人同時無法列印，或印表機顯示硬體錯誤代碼，請轉客服人員。",
+      "causes": [
+        {
+          "text": "印表機離線或列印佇列卡住",
+          "rc": "印表機離線或佇列卡住",
+          "steps": [
+            "開啟「設定 > 印表機與掃描器」，選擇該印表機並開啟列印佇列",
+            "取消所有卡住的工作，並確認未勾選「離線使用印表機」",
+            "重新送出列印"
+          ]
+        },
+        {
+          "text": "印表機驅動程式錯誤",
+          "rc": "印表機驅動程式錯誤",
+          "steps": [
+            "移除該印表機後，從公司軟體中心重新安裝驅動程式",
+            "列印時改選 PCL6 驅動程式，並設為預設印表機"
+          ]
+        },
+        {
+          "text": "耗材不足或卡紙",
+          "rc": "耗材或卡紙",
+          "steps": [
+            "檢查印表機面板是否顯示碳粉不足或卡紙",
+            "依面板指示取出卡紙後重新列印"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "KB-007",
+      "title": "藍屏、當機或無預警重新開機",
+      "category": "硬體",
+      "keywords": [
+        "藍屏",
+        "藍色畫面",
+        "bsod",
+        "無預警重開機",
+        "自動重開機",
+        "突然重開",
+        "死機",
+        "重新啟動",
+        "重開機",
+        "藍底"
+      ],
+      "symptoms": "出現藍色畫面與停止代碼、工作到一半電腦自動重新開機",
+      "escalateWhen": "藍屏反覆出現，或已記下停止代碼，請轉客服人員做硬體檢測。",
+      "causes": [
+        {
+          "text": "記憶體模組故障",
+          "rc": "記憶體模組故障",
+          "check": "old_device",
+          "steps": [
+            "記下藍屏畫面上的停止代碼（例如 MEMORY_MANAGEMENT）",
+            "先不要自行拆機，請轉客服人員以 Windows 記憶體診斷工具檢測"
+          ]
+        },
+        {
+          "text": "驅動程式或系統更新衝突",
+          "rc": "驅動程式衝突",
+          "check": "patch_old",
+          "steps": [
+            "回想藍屏是否發生在安裝更新或新裝置之後",
+            "開啟「設定 > Windows Update > 更新記錄」，解除安裝最近的更新",
+            "重新啟動後觀察"
+          ]
+        },
+        {
+          "text": "硬碟壞軌",
+          "rc": "硬碟壞軌",
+          "check": "old_device",
+          "steps": [
+            "備份重要檔案至網路磁碟",
+            "請轉客服人員檢測硬碟健康狀態（SMART）"
+          ]
+        },
+        {
+          "text": "散熱不良導致過熱",
+          "rc": "散熱不良",
+          "steps": [
+            "確認通風孔沒有被遮住，筆電請放在平坦硬質桌面",
+            "若風扇聲音很大或機身異常燙，請轉客服人員清潔散熱"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "KB-008",
+      "title": "筆電電池續航短或無法充電",
+      "category": "硬體",
+      "keywords": [
+        "電池",
+        "續航",
+        "無法充電",
+        "充不進",
+        "不充電",
+        "變壓器",
+        "充電",
+        "沒電",
+        "耗電",
+        "掉電"
+      ],
+      "symptoms": "電池很快用完、插著電源卻不充電、電量忽高忽低",
+      "escalateWhen": "換過插座與電源線仍無法充電，請轉客服人員。",
+      "causes": [
+        {
+          "text": "電池老化",
+          "rc": "電池老化",
+          "check": "battery_worn",
+          "steps": [
+            "執行 powercfg /batteryreport 產生電池報告，比較「設計容量」與「完全充電容量」",
+            "若完全充電容量低於設計容量的 60%，請報修更換電池"
+          ]
+        },
+        {
+          "text": "電源供應器（變壓器）故障",
+          "rc": "電源供應器故障",
+          "steps": [
+            "換一個插座並確認變壓器指示燈是否亮起",
+            "檢查電源線與接頭是否破損、發燙",
+            "若仍無法充電，請轉客服人員借用測試用變壓器"
+          ]
+        },
+        {
+          "text": "電源設定不當",
+          "rc": "電源設定不當",
+          "steps": [
+            "在「設定 > 系統 > 電源」改用「最佳電源效率」，並降低螢幕亮度",
+            "關閉不必要的背景程式"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "KB-009",
+      "title": "視訊會議相機或麥克風無法使用",
+      "category": "軟體應用",
+      "keywords": [
+        "teams",
+        "zoom",
+        "相機",
+        "鏡頭",
+        "麥克風",
+        "沒有聲音",
+        "沒聲音",
+        "視訊",
+        "會議",
+        "喇叭",
+        "webex",
+        "聽不到",
+        "看不到畫面",
+        "沒有畫面"
+      ],
+      "symptoms": "會議中對方看不到畫面、聽不到聲音，或軟體找不到相機",
+      "escalateWhen": "其他軟體也偵測不到相機或麥克風，可能是硬體問題，請轉客服人員。",
+      "causes": [
+        {
+          "text": "相機/麥克風的隱私權設定被關閉",
+          "rc": "相機/麥克風隱私權設定被關閉",
+          "steps": [
+            "開啟「設定 > 隱私權與安全性 > 相機」（麥克風同理）",
+            "確認「相機存取」與「允許傳統型應用程式存取相機」皆為開啟",
+            "重新啟動 Teams / Zoom"
+          ]
+        },
+        {
+          "text": "相機被其他程式佔用",
+          "rc": "相機被其他程式佔用",
+          "steps": [
+            "關閉所有會用到相機的程式（Zoom、Teams、瀏覽器分頁）",
+            "在工作管理員結束殘留的程序後重新加入會議"
+          ]
+        },
+        {
+          "text": "音訊/視訊裝置選擇錯誤",
+          "rc": "音訊裝置選擇錯誤",
+          "steps": [
+            "在會議軟體的「設定 > 裝置」重新選擇麥克風、喇叭與相機",
+            "拔掉藍牙耳機或外接螢幕喇叭後再測試"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "KB-010",
+      "title": "疑似中毒、釣魚信或勒索軟體",
+      "category": "資安",
+      "keywords": [
+        "中毒",
+        "病毒",
+        "釣魚",
+        "勒索",
+        "惡意",
+        "木馬",
+        "可疑",
+        "詐騙",
+        "資料被加密",
+        "駭客",
+        "被盜",
+        "異常登入",
+        "彈出廣告",
+        "點了連結"
+      ],
+      "symptoms": "檔案被加密或改名、不明彈出視窗、點了可疑連結或附件、帳號有異常登入通知",
+      "severity": "critical",
+      "escalateAlways": true,
+      "priority": "高",
+      "escalateNote": "疑似資安事件必須由客服人員與資安小組即時處理。",
+      "escalateWhen": "任何疑似資安事件都應立即轉客服人員。",
+      "causes": [
+        {
+          "text": "誤點釣魚郵件連結或附件",
+          "rc": "釣魚郵件誤點連結",
+          "steps": [
+            "立即中斷網路（拔除網路線或關閉 Wi-Fi），但先不要關機",
+            "不要再輸入任何帳號密碼，也不要刪除可疑郵件（保留證據）",
+            "已輸入過密碼的話，請告知客服人員以便立即重設"
+          ]
+        },
+        {
+          "text": "惡意軟體感染",
+          "rc": "惡意軟體感染",
+          "check": "av_bad",
+          "steps": [
+            "立即中斷網路，保持電腦開機",
+            "不要自行安裝任何清除工具",
+            "由客服人員遠端或到場隔離處理"
+          ]
+        },
+        {
+          "text": "帳號憑證外洩",
+          "rc": "帳號憑證外洩",
+          "steps": [
+            "若收到異常登入通知，請勿點擊通知中的連結",
+            "改由公司入口網站變更密碼，並啟用多因素驗證"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "KB-011",
+      "title": "螢幕閃爍、無畫面或外接螢幕沒訊號",
+      "category": "硬體",
+      "keywords": [
+        "螢幕",
+        "閃爍",
+        "黑屏",
+        "沒訊號",
+        "無訊號",
+        "外接",
+        "投影",
+        "hdmi",
+        "顯示",
+        "花屏",
+        "畫面",
+        "解析度",
+        "閃"
+      ],
+      "symptoms": "螢幕忽明忽暗、出現條紋、外接螢幕顯示「無訊號」",
+      "escalateWhen": "換線與更新驅動後仍閃爍，可能是面板或排線問題，請轉客服人員。",
+      "causes": [
+        {
+          "text": "轉接線或排線故障",
+          "rc": "轉接線/排線故障",
+          "steps": [
+            "更換另一條 HDMI / DisplayPort / USB-C 線材與轉接頭測試",
+            "重新拔插螢幕兩端接頭"
+          ]
+        },
+        {
+          "text": "顯示卡驅動程式異常",
+          "rc": "顯示卡驅動程式異常",
+          "check": "patch_old",
+          "steps": [
+            "在「裝置管理員 > 顯示卡」更新驅動程式，或至軟體中心安裝最新版",
+            "按 Win+Ctrl+Shift+B 重設顯示驅動"
+          ]
+        },
+        {
+          "text": "螢幕排線鬆脫或面板老化",
+          "rc": "螢幕排線鬆脫",
+          "check": "old_device",
+          "steps": [
+            "輕輕開合螢幕，觀察閃爍是否與角度有關",
+            "若與角度有關，可能是排線鬆脫，請轉客服人員送修"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "KB-012",
+      "title": "磁碟空間不足，如何清理",
+      "category": "作業系統",
+      "keywords": [
+        "空間不足",
+        "磁碟已滿",
+        "c槽",
+        "儲存空間",
+        "硬碟滿",
+        "容量不足",
+        "磁碟空間",
+        "檔案太多",
+        "硬碟快滿"
+      ],
+      "symptoms": "系統提示磁碟空間不足、無法儲存檔案或安裝更新",
+      "escalateWhen": "清理後仍不足，請報修評估更換較大容量的硬碟。",
+      "causes": [
+        {
+          "text": "系統磁碟被暫存檔與大型檔案佔滿",
+          "rc": "磁碟空間不足",
+          "check": "disk_low",
+          "steps": [
+            "在「設定 > 系統 > 儲存空間」查看各類別佔用，先清理「暫存檔案」",
+            "在「清理建議」中刪除 Windows.old 與舊的更新檔",
+            "啟用 OneDrive「檔案隨選」，把大型檔案改為僅在雲端保存"
+          ]
+        },
+        {
+          "text": "下載資料夾與桌面堆積大量檔案",
+          "rc": "磁碟空間不足",
+          "steps": [
+            "整理「下載」與「桌面」資料夾，把專案檔案移到網路磁碟",
+            "清空資源回收筒"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "KB-013",
+      "title": "軟體安裝或授權申請",
+      "category": "軟體應用",
+      "keywords": [
+        "安裝",
+        "裝軟體",
+        "授權",
+        "license",
+        "adobe",
+        "office",
+        "申請軟體",
+        "無法安裝",
+        "權限不足",
+        "需要系統管理員",
+        "啟用"
+      ],
+      "symptoms": "安裝時要求系統管理員密碼、軟體顯示未授權或試用期結束",
+      "escalateWhen": "軟體不在核准清單，需由客服人員協助簽核申請。",
+      "causes": [
+        {
+          "text": "軟體授權尚未指派給您的帳號",
+          "rc": "軟體授權未指派",
+          "steps": [
+            "前往公司軟體中心確認是否已指派授權",
+            "若沒有，請建立報修單並註明軟體名稱與用途，主管核准後會指派"
+          ]
+        },
+        {
+          "text": "需要系統管理員權限",
+          "rc": "需要系統管理員權限",
+          "steps": [
+            "一般軟體請優先從「公司軟體中心」安裝，不需要管理員權限",
+            "需要特殊安裝時，請報修由客服人員協助遠端安裝"
+          ]
+        },
+        {
+          "text": "軟體不在公司核准清單內",
+          "rc": "軟體不在核准清單",
+          "steps": [
+            "確認軟體是否在核准清單中",
+            "不在清單中的軟體需經資安審查，請報修並說明業務需求"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "KB-014",
+      "title": "電腦無法開機或開機沒反應",
+      "category": "硬體",
+      "keywords": [
+        "無法開機",
+        "開不了機",
+        "不開機",
+        "電源燈",
+        "按電源",
+        "開機失敗",
+        "沒反應",
+        "開機黑屏",
+        "開機後黑",
+        "打不開"
+      ],
+      "symptoms": "按下電源鈕沒反應、電源燈亮但無畫面、卡在廠牌標誌",
+      "escalateWhen": "完成以上檢查仍無法開機，請轉客服人員。",
+      "causes": [
+        {
+          "text": "電源供應器或電源線故障",
+          "rc": "電源供應器故障",
+          "steps": [
+            "確認電源線與插座正常（換一個插座測試）",
+            "桌機請檢查主機後方電源開關；筆電請長按電源鈕 30 秒後再試"
+          ]
+        },
+        {
+          "text": "硬碟壞軌或系統檔案損毀",
+          "rc": "硬碟壞軌",
+          "check": "old_device",
+          "steps": [
+            "若看到「找不到作業系統」或反覆進入修復畫面，請不要重複強制關機",
+            "請轉客服人員檢測硬碟並備份資料"
+          ]
+        },
+        {
+          "text": "記憶體接觸不良",
+          "rc": "記憶體模組故障",
+          "steps": [
+            "若主機有連續嗶聲，請記下次數",
+            "請轉客服人員處理，勿自行拆機"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "KB-015",
+      "title": "共用資料夾或網路磁碟機無法存取",
+      "category": "網路/VPN",
+      "keywords": [
+        "共用資料夾",
+        "網路磁碟",
+        "網路磁碟機",
+        "無法存取",
+        "存取被拒",
+        "沒有權限",
+        "拒絕存取",
+        "nas",
+        "檔案伺服器",
+        "共用"
+      ],
+      "symptoms": "開啟網路磁碟機時顯示拒絕存取、找不到網路路徑或要求重新輸入密碼",
+      "escalateWhen": "需要新增資料夾權限時，請轉客服人員並附上主管核准。",
+      "causes": [
+        {
+          "text": "網路磁碟機儲存的憑證已過期",
+          "rc": "網路磁碟機憑證過期",
+          "steps": [
+            "開啟「控制台 > 認證管理員 > Windows 認證」，刪除該伺服器的舊憑證",
+            "重新開啟網路磁碟機並輸入目前的公司帳號密碼"
+          ]
+        },
+        {
+          "text": "尚未取得該資料夾的存取權限",
+          "rc": "權限未授權",
+          "steps": [
+            "向資料夾負責人確認您是否在授權名單內",
+            "需要權限時請報修並附上主管核准"
+          ]
+        },
+        {
+          "text": "目前未連上公司網路或 VPN",
+          "rc": "未連上公司網路",
+          "steps": [
+            "在公司外請先連上 VPN 再開啟網路磁碟機",
+            "確認可以連到公司內部網站"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "KB-016",
+      "title": "設備進水、冒煙或有異味",
+      "category": "硬體",
+      "keywords": [
+        "進水",
+        "潑到",
+        "冒煙",
+        "燒焦",
+        "異味",
+        "焦味",
+        "很燙",
+        "膨脹",
+        "漏液",
+        "咖啡",
+        "飲料",
+        "潑灑",
+        "打翻"
+      ],
+      "symptoms": "設備潑到液體、冒煙、有燒焦味、機身異常發燙或電池鼓起",
+      "severity": "critical",
+      "escalateAlways": true,
+      "priority": "緊急",
+      "escalateNote": "涉及人身安全與資料保全，必須由客服人員立即處理。",
+      "escalateWhen": "任何進水、冒煙或異味情況都應立即轉客服人員。",
+      "causes": [
+        {
+          "text": "液體潑灑或電池膨脹",
+          "rc": "液體潑灑",
+          "steps": [
+            "立即關機並拔除電源線與所有週邊；電池鼓起或冒煙時請遠離易燃物",
+            "不要再開機、不要充電，也不要自行拆機或用吹風機烘乾",
+            "我會立即通知客服人員安排取件與資料救援"
+          ]
+        }
+      ]
+    }
+  ],
+  "tickets": [
+    {
+      "id": "INC-0001",
+      "title": "Windows 更新後卡在更新畫面無法進入系統",
+      "description": "重新開機後一直顯示「正在設定 Windows 更新」。",
+      "category": "作業系統",
+      "priority": "高",
+      "status": "已關閉",
+      "requesterId": "E1002",
+      "deviceId": "NB-0118",
+      "assigneeId": "S001",
+      "source": "form",
+      "createdAt": "2025-05-08T06:11:39.913Z",
+      "updatedAt": "2025-05-08T16:11:39.913Z",
+      "dueAt": "2025-05-08T14:11:39.913Z",
+      "resolvedAt": "2025-05-08T16:11:39.913Z",
+      "closedAt": "2025-05-08T16:11:39.913Z",
+      "rootCause": "Windows 更新未完成",
+      "resolution": "進入復原環境解除安裝最新更新，重新安裝後正常。",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2025-05-08T06:11:39.913Z"
+        },
+        {
+          "by": "S001",
+          "type": "comment",
+          "body": "已處理完成：進入復原環境解除安裝最新更新，重新安裝後正常。",
+          "internal": false,
+          "at": "2025-05-08T16:11:39.913Z"
+        },
+        {
+          "by": "system",
+          "type": "system",
+          "body": "使用者確認後已關閉",
+          "internal": false,
+          "at": "2025-05-08T16:11:39.913Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0002",
+      "title": "螢幕偶爾出現條紋",
+      "description": "開機一段時間後螢幕出現橫向條紋。",
+      "category": "硬體",
+      "priority": "中",
+      "status": "已關閉",
+      "requesterId": "E1004",
+      "deviceId": "PC-0057",
+      "assigneeId": "S001",
+      "source": "form",
+      "createdAt": "2025-10-05T06:11:39.914Z",
+      "updatedAt": "2025-10-05T12:11:39.914Z",
+      "dueAt": "2025-10-06T06:11:39.914Z",
+      "resolvedAt": "2025-10-05T12:11:39.914Z",
+      "closedAt": "2025-10-05T12:11:39.914Z",
+      "rootCause": "顯示卡驅動程式異常",
+      "resolution": "更新顯示卡驅動程式後不再出現。",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2025-10-05T06:11:39.914Z"
+        },
+        {
+          "by": "S001",
+          "type": "comment",
+          "body": "已處理完成：更新顯示卡驅動程式後不再出現。",
+          "internal": false,
+          "at": "2025-10-05T12:11:39.914Z"
+        },
+        {
+          "by": "system",
+          "type": "system",
+          "body": "使用者確認後已關閉",
+          "internal": false,
+          "at": "2025-10-05T12:11:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0003",
+      "title": "電腦變很慢，Teams 一開就卡",
+      "description": "這一週特別慢。",
+      "category": "作業系統",
+      "priority": "低",
+      "status": "已關閉",
+      "requesterId": "E1008",
+      "deviceId": "NB-0233",
+      "assigneeId": "S001",
+      "source": "form",
+      "createdAt": "2025-10-25T06:11:39.914Z",
+      "updatedAt": "2025-10-25T09:11:39.914Z",
+      "dueAt": "2025-10-28T06:11:39.914Z",
+      "resolvedAt": "2025-10-25T09:11:39.914Z",
+      "closedAt": "2025-10-25T09:11:39.914Z",
+      "rootCause": "開機啟動項過多",
+      "resolution": "停用啟動項並清理 Teams 快取。",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2025-10-25T06:11:39.914Z"
+        },
+        {
+          "by": "S001",
+          "type": "comment",
+          "body": "已處理完成：停用啟動項並清理 Teams 快取。",
+          "internal": false,
+          "at": "2025-10-25T09:11:39.914Z"
+        },
+        {
+          "by": "system",
+          "type": "system",
+          "body": "使用者確認後已關閉",
+          "internal": false,
+          "at": "2025-10-25T09:11:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0004",
+      "title": "筆電電池只能用 40 分鐘",
+      "description": "外出開會電池很快就沒電。",
+      "category": "硬體",
+      "priority": "中",
+      "status": "已關閉",
+      "requesterId": "E1002",
+      "deviceId": "NB-0118",
+      "assigneeId": "S001",
+      "source": "form",
+      "createdAt": "2025-11-04T06:11:39.914Z",
+      "updatedAt": "2025-11-06T06:11:39.914Z",
+      "dueAt": "2025-11-05T06:11:39.914Z",
+      "resolvedAt": "2025-11-06T06:11:39.914Z",
+      "closedAt": "2025-11-06T06:11:39.914Z",
+      "rootCause": "電池老化",
+      "resolution": "電池健康度僅剩 55%，於保固內更換原廠電池。",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2025-11-04T06:11:39.914Z"
+        },
+        {
+          "by": "S001",
+          "type": "comment",
+          "body": "已處理完成：電池健康度僅剩 55%，於保固內更換原廠電池。",
+          "internal": false,
+          "at": "2025-11-06T06:11:39.914Z"
+        },
+        {
+          "by": "system",
+          "type": "system",
+          "body": "使用者確認後已關閉",
+          "internal": false,
+          "at": "2025-11-06T06:11:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0005",
+      "title": "開機後螢幕一片黑",
+      "description": "主機有運轉但螢幕沒有畫面。",
+      "category": "硬體",
+      "priority": "中",
+      "status": "已關閉",
+      "requesterId": "E1010",
+      "deviceId": "PC-0058",
+      "assigneeId": "S001",
+      "source": "form",
+      "createdAt": "2025-11-24T06:11:39.914Z",
+      "updatedAt": "2025-11-25T02:11:39.914Z",
+      "dueAt": "2025-11-25T06:11:39.914Z",
+      "resolvedAt": "2025-11-25T02:11:39.914Z",
+      "closedAt": "2025-11-25T02:11:39.914Z",
+      "rootCause": "轉接線/排線故障",
+      "resolution": "更換 DisplayPort 線材後正常。",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2025-11-24T06:11:39.914Z"
+        },
+        {
+          "by": "S001",
+          "type": "comment",
+          "body": "已處理完成：更換 DisplayPort 線材後正常。",
+          "internal": false,
+          "at": "2025-11-25T02:11:39.914Z"
+        },
+        {
+          "by": "system",
+          "type": "system",
+          "body": "使用者確認後已關閉",
+          "internal": false,
+          "at": "2025-11-25T02:11:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0006",
+      "title": "筆電插著電源也不充電",
+      "description": "電源燈不亮。",
+      "category": "硬體",
+      "priority": "中",
+      "status": "已關閉",
+      "requesterId": "E1009",
+      "deviceId": "NB-0119",
+      "assigneeId": "S001",
+      "source": "form",
+      "createdAt": "2026-01-03T06:11:39.914Z",
+      "updatedAt": "2026-01-04T06:11:39.914Z",
+      "dueAt": "2026-01-04T06:11:39.914Z",
+      "resolvedAt": "2026-01-04T06:11:39.914Z",
+      "closedAt": "2026-01-04T06:11:39.914Z",
+      "rootCause": "電源供應器故障",
+      "resolution": "更換原廠變壓器後恢復充電。",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2026-01-03T06:11:39.914Z"
+        },
+        {
+          "by": "S001",
+          "type": "comment",
+          "body": "已處理完成：更換原廠變壓器後恢復充電。",
+          "internal": false,
+          "at": "2026-01-04T06:11:39.914Z"
+        },
+        {
+          "by": "system",
+          "type": "system",
+          "body": "使用者確認後已關閉",
+          "internal": false,
+          "at": "2026-01-04T06:11:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0007",
+      "title": "電腦開機很久，桌面出現後還是很卡",
+      "description": "開機後要等 3 分鐘才能使用。",
+      "category": "作業系統",
+      "priority": "低",
+      "status": "已關閉",
+      "requesterId": "E1003",
+      "deviceId": "NB-0302",
+      "assigneeId": "S001",
+      "source": "form",
+      "createdAt": "2026-01-23T06:11:39.914Z",
+      "updatedAt": "2026-01-23T09:11:39.914Z",
+      "dueAt": "2026-01-26T06:11:39.914Z",
+      "resolvedAt": "2026-01-23T09:11:39.914Z",
+      "closedAt": "2026-01-23T09:11:39.914Z",
+      "rootCause": "開機啟動項過多",
+      "resolution": "停用 8 個非必要的開機啟動項，開機時間從 4 分鐘降到 40 秒。",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2026-01-23T06:11:39.914Z"
+        },
+        {
+          "by": "S001",
+          "type": "comment",
+          "body": "已處理完成：停用 8 個非必要的開機啟動項，開機時間從 4 分鐘降到 40 秒。",
+          "internal": false,
+          "at": "2026-01-23T09:11:39.914Z"
+        },
+        {
+          "by": "system",
+          "type": "system",
+          "body": "使用者確認後已關閉",
+          "internal": false,
+          "at": "2026-01-23T09:11:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0008",
+      "title": "桌機一直藍屏後自動重開機",
+      "description": "一天發生好幾次，藍屏字樣是 MEMORY_MANAGEMENT。",
+      "category": "硬體",
+      "priority": "高",
+      "status": "已關閉",
+      "requesterId": "E1007",
+      "deviceId": "PC-0112",
+      "assigneeId": "S001",
+      "source": "form",
+      "createdAt": "2026-02-22T06:11:39.914Z",
+      "updatedAt": "2026-02-23T12:11:39.914Z",
+      "dueAt": "2026-02-22T14:11:39.914Z",
+      "resolvedAt": "2026-02-23T12:11:39.914Z",
+      "closedAt": "2026-02-23T12:11:39.914Z",
+      "rootCause": "記憶體模組故障",
+      "resolution": "以記憶體診斷發現錯誤，更換記憶體模組後穩定。",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2026-02-22T06:11:39.914Z"
+        },
+        {
+          "by": "S001",
+          "type": "comment",
+          "body": "已處理完成：以記憶體診斷發現錯誤，更換記憶體模組後穩定。",
+          "internal": false,
+          "at": "2026-02-23T12:11:39.914Z"
+        },
+        {
+          "by": "system",
+          "type": "system",
+          "body": "使用者確認後已關閉",
+          "internal": false,
+          "at": "2026-02-23T12:11:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0009",
+      "title": "VPN 連不上，一直顯示驗證失敗",
+      "description": "在家無法連公司 VPN。",
+      "category": "網路/VPN",
+      "priority": "中",
+      "status": "已關閉",
+      "requesterId": "E1001",
+      "deviceId": "NB-0231",
+      "assigneeId": "S002",
+      "source": "form",
+      "createdAt": "2026-03-04T06:11:39.914Z",
+      "updatedAt": "2026-03-04T09:11:39.914Z",
+      "dueAt": "2026-03-05T06:11:39.914Z",
+      "resolvedAt": "2026-03-04T09:11:39.914Z",
+      "closedAt": "2026-03-04T09:11:39.914Z",
+      "rootCause": "VPN 用戶端版本過舊",
+      "resolution": "更新 GlobalProtect 至 6.2 並重新設定入口網址。",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2026-03-04T06:11:39.914Z"
+        },
+        {
+          "by": "S002",
+          "type": "comment",
+          "body": "已處理完成：更新 GlobalProtect 至 6.2 並重新設定入口網址。",
+          "internal": false,
+          "at": "2026-03-04T09:11:39.914Z"
+        },
+        {
+          "by": "system",
+          "type": "system",
+          "body": "使用者確認後已關閉",
+          "internal": false,
+          "at": "2026-03-04T09:11:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0010",
+      "title": "電腦很慢，同時開幾個 Chrome 就當掉",
+      "description": "打開設計軟體加瀏覽器就卡到不能動。",
+      "category": "作業系統",
+      "priority": "中",
+      "status": "已關閉",
+      "requesterId": "E1006",
+      "deviceId": "NB-0190",
+      "assigneeId": "S001",
+      "source": "form",
+      "createdAt": "2026-03-04T06:11:39.914Z",
+      "updatedAt": "2026-03-04T12:11:39.914Z",
+      "dueAt": "2026-03-05T06:11:39.914Z",
+      "resolvedAt": "2026-03-04T12:11:39.914Z",
+      "closedAt": "2026-03-04T12:11:39.914Z",
+      "rootCause": "記憶體不足",
+      "resolution": "記憶體由 8GB 加裝至 16GB，並教導關閉多餘分頁。",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2026-03-04T06:11:39.914Z"
+        },
+        {
+          "by": "S001",
+          "type": "comment",
+          "body": "已處理完成：記憶體由 8GB 加裝至 16GB，並教導關閉多餘分頁。",
+          "internal": false,
+          "at": "2026-03-04T12:11:39.914Z"
+        },
+        {
+          "by": "system",
+          "type": "system",
+          "body": "使用者確認後已關閉",
+          "internal": false,
+          "at": "2026-03-04T12:11:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0011",
+      "title": "沒有權限開啟財務共用資料夾",
+      "description": "新專案需要存取 \\\\fs01\\finance\\2026。",
+      "category": "帳號/權限",
+      "priority": "低",
+      "status": "已關閉",
+      "requesterId": "E1002",
+      "deviceId": "NB-0118",
+      "assigneeId": "S002",
+      "source": "form",
+      "createdAt": "2026-03-24T06:11:39.914Z",
+      "updatedAt": "2026-03-24T10:11:39.914Z",
+      "dueAt": "2026-03-27T06:11:39.914Z",
+      "resolvedAt": "2026-03-24T10:11:39.914Z",
+      "closedAt": "2026-03-24T10:11:39.914Z",
+      "rootCause": "權限未授權",
+      "resolution": "取得主管核准後，將帳號加入資料夾存取群組。",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2026-03-24T06:11:39.914Z"
+        },
+        {
+          "by": "S002",
+          "type": "comment",
+          "body": "已處理完成：取得主管核准後，將帳號加入資料夾存取群組。",
+          "internal": false,
+          "at": "2026-03-24T10:11:39.914Z"
+        },
+        {
+          "by": "system",
+          "type": "system",
+          "body": "使用者確認後已關閉",
+          "internal": false,
+          "at": "2026-03-24T10:11:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0012",
+      "title": "收到可疑郵件，已經點了連結",
+      "description": "郵件自稱是物流通知，點進去要求登入。",
+      "category": "資安",
+      "priority": "高",
+      "status": "已關閉",
+      "requesterId": "E1008",
+      "deviceId": "NB-0233",
+      "assigneeId": "S002",
+      "source": "form",
+      "createdAt": "2026-03-24T06:11:39.914Z",
+      "updatedAt": "2026-03-24T18:11:39.914Z",
+      "dueAt": "2026-03-24T14:11:39.914Z",
+      "resolvedAt": "2026-03-24T18:11:39.914Z",
+      "closedAt": "2026-03-24T18:11:39.914Z",
+      "rootCause": "釣魚郵件誤點連結",
+      "resolution": "隔離電腦、重設密碼並全機掃描，未發現惡意程式；已對部門加強宣導。",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2026-03-24T06:11:39.914Z"
+        },
+        {
+          "by": "S002",
+          "type": "comment",
+          "body": "已處理完成：隔離電腦、重設密碼並全機掃描，未發現惡意程式；已對部門加強宣導。",
+          "internal": false,
+          "at": "2026-03-24T18:11:39.914Z"
+        },
+        {
+          "by": "system",
+          "type": "system",
+          "body": "使用者確認後已關閉",
+          "internal": false,
+          "at": "2026-03-24T18:11:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0013",
+      "title": "筆電風扇很吵而且會自己當機",
+      "description": "玩不到一小時就變很燙然後重開機。",
+      "category": "硬體",
+      "priority": "中",
+      "status": "已關閉",
+      "requesterId": "E1003",
+      "deviceId": "NB-0302",
+      "assigneeId": "S001",
+      "source": "form",
+      "createdAt": "2026-04-13T06:11:39.914Z",
+      "updatedAt": "2026-04-13T13:11:39.914Z",
+      "dueAt": "2026-04-14T06:11:39.914Z",
+      "resolvedAt": "2026-04-13T13:11:39.914Z",
+      "closedAt": "2026-04-13T13:11:39.914Z",
+      "rootCause": "散熱不良",
+      "resolution": "清潔散熱風扇與更換散熱膏。",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2026-04-13T06:11:39.914Z"
+        },
+        {
+          "by": "S001",
+          "type": "comment",
+          "body": "已處理完成：清潔散熱風扇與更換散熱膏。",
+          "internal": false,
+          "at": "2026-04-13T13:11:39.914Z"
+        },
+        {
+          "by": "system",
+          "type": "system",
+          "body": "使用者確認後已關閉",
+          "internal": false,
+          "at": "2026-04-13T13:11:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0014",
+      "title": "Outlook 無法收信，一直顯示離線",
+      "description": "Outlook 右下角顯示中斷連線，手機可以收信。",
+      "category": "電子郵件",
+      "priority": "中",
+      "status": "已關閉",
+      "requesterId": "E1003",
+      "deviceId": "NB-0302",
+      "assigneeId": "S002",
+      "source": "form",
+      "createdAt": "2026-04-23T06:11:39.914Z",
+      "updatedAt": "2026-04-23T08:11:39.914Z",
+      "dueAt": "2026-04-24T06:11:39.914Z",
+      "resolvedAt": "2026-04-23T08:11:39.914Z",
+      "closedAt": "2026-04-23T08:11:39.914Z",
+      "rootCause": "Outlook 信箱容量已滿",
+      "resolution": "封存舊郵件並清空刪除的郵件，容量降至 60%。",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2026-04-23T06:11:39.914Z"
+        },
+        {
+          "by": "S002",
+          "type": "comment",
+          "body": "已處理完成：封存舊郵件並清空刪除的郵件，容量降至 60%。",
+          "internal": false,
+          "at": "2026-04-23T08:11:39.914Z"
+        },
+        {
+          "by": "system",
+          "type": "system",
+          "body": "使用者確認後已關閉",
+          "internal": false,
+          "at": "2026-04-23T08:11:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0015",
+      "title": "無法使用網路印表機掃描到信箱",
+      "description": "掃描後收不到信。",
+      "category": "印表機/週邊",
+      "priority": "低",
+      "status": "已關閉",
+      "requesterId": "E1006",
+      "deviceId": "NB-0190",
+      "assigneeId": "S002",
+      "source": "form",
+      "createdAt": "2026-05-13T06:11:39.914Z",
+      "updatedAt": "2026-05-13T08:11:39.914Z",
+      "dueAt": "2026-05-16T06:11:39.914Z",
+      "resolvedAt": "2026-05-13T08:11:39.914Z",
+      "closedAt": "2026-05-13T08:11:39.914Z",
+      "rootCause": "印表機離線或佇列卡住",
+      "resolution": "重新設定掃描目的地並重新啟動印表機。",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2026-05-13T06:11:39.914Z"
+        },
+        {
+          "by": "S002",
+          "type": "comment",
+          "body": "已處理完成：重新設定掃描目的地並重新啟動印表機。",
+          "internal": false,
+          "at": "2026-05-13T08:11:39.914Z"
+        },
+        {
+          "by": "system",
+          "type": "system",
+          "body": "使用者確認後已關閉",
+          "internal": false,
+          "at": "2026-05-13T08:11:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0016",
+      "title": "Wi-Fi 常常斷線，視訊會議會中斷",
+      "description": "在會議室連 Wi-Fi 每隔幾分鐘就斷線。",
+      "category": "網路/VPN",
+      "priority": "中",
+      "status": "已關閉",
+      "requesterId": "E1005",
+      "deviceId": "NB-0277",
+      "assigneeId": "S002",
+      "source": "form",
+      "createdAt": "2026-05-23T06:11:39.914Z",
+      "updatedAt": "2026-05-23T12:11:39.914Z",
+      "dueAt": "2026-05-24T06:11:39.914Z",
+      "resolvedAt": "2026-05-23T12:11:39.914Z",
+      "closedAt": "2026-05-23T12:11:39.914Z",
+      "rootCause": "DNS 快取異常",
+      "resolution": "清除 DNS 快取並重設網路設定，改用 5GHz SSID，之後穩定。",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2026-05-23T06:11:39.914Z"
+        },
+        {
+          "by": "S002",
+          "type": "comment",
+          "body": "已處理完成：清除 DNS 快取並重設網路設定，改用 5GHz SSID，之後穩定。",
+          "internal": false,
+          "at": "2026-05-23T12:11:39.914Z"
+        },
+        {
+          "by": "system",
+          "type": "system",
+          "body": "使用者確認後已關閉",
+          "internal": false,
+          "at": "2026-05-23T12:11:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0017",
+      "title": "會議室投影機接不上",
+      "description": "接上筆電後投影機顯示無訊號。",
+      "category": "硬體",
+      "priority": "低",
+      "status": "已關閉",
+      "requesterId": "E1001",
+      "deviceId": "NB-0231",
+      "assigneeId": "S001",
+      "source": "form",
+      "createdAt": "2026-06-02T06:11:39.914Z",
+      "updatedAt": "2026-06-02T07:11:39.914Z",
+      "dueAt": "2026-06-05T06:11:39.914Z",
+      "resolvedAt": "2026-06-02T07:11:39.914Z",
+      "closedAt": "2026-06-02T07:11:39.914Z",
+      "rootCause": "轉接線/排線故障",
+      "resolution": "會議室 HDMI 線材損壞，已更換。",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2026-06-02T06:11:39.914Z"
+        },
+        {
+          "by": "S001",
+          "type": "comment",
+          "body": "已處理完成：會議室 HDMI 線材損壞，已更換。",
+          "internal": false,
+          "at": "2026-06-02T07:11:39.914Z"
+        },
+        {
+          "by": "system",
+          "type": "system",
+          "body": "使用者確認後已關閉",
+          "internal": false,
+          "at": "2026-06-02T07:11:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0018",
+      "title": "無法連到網路磁碟機",
+      "description": "出現「拒絕存取」，但同事可以開。",
+      "category": "網路/VPN",
+      "priority": "中",
+      "status": "已關閉",
+      "requesterId": "E1007",
+      "deviceId": "PC-0112",
+      "assigneeId": "S002",
+      "source": "form",
+      "createdAt": "2026-06-12T06:11:39.914Z",
+      "updatedAt": "2026-06-12T08:11:39.914Z",
+      "dueAt": "2026-06-13T06:11:39.914Z",
+      "resolvedAt": "2026-06-12T08:11:39.914Z",
+      "closedAt": "2026-06-12T08:11:39.914Z",
+      "rootCause": "網路磁碟機憑證過期",
+      "resolution": "清除認證管理員中的舊憑證並重新輸入。",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2026-06-12T06:11:39.914Z"
+        },
+        {
+          "by": "S002",
+          "type": "comment",
+          "body": "已處理完成：清除認證管理員中的舊憑證並重新輸入。",
+          "internal": false,
+          "at": "2026-06-12T08:11:39.914Z"
+        },
+        {
+          "by": "system",
+          "type": "system",
+          "body": "使用者確認後已關閉",
+          "internal": false,
+          "at": "2026-06-12T08:11:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0019",
+      "title": "外接螢幕沒有訊號",
+      "description": "用 USB-C 接螢幕，螢幕顯示無訊號。",
+      "category": "硬體",
+      "priority": "低",
+      "status": "已關閉",
+      "requesterId": "E1003",
+      "deviceId": "NB-0302",
+      "assigneeId": "S001",
+      "source": "form",
+      "createdAt": "2026-06-22T06:11:39.914Z",
+      "updatedAt": "2026-06-22T10:11:39.914Z",
+      "dueAt": "2026-06-25T06:11:39.914Z",
+      "resolvedAt": "2026-06-22T10:11:39.914Z",
+      "closedAt": "2026-06-22T10:11:39.914Z",
+      "rootCause": "轉接線/排線故障",
+      "resolution": "更換 USB-C 轉 HDMI 轉接線後正常。",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2026-06-22T06:11:39.914Z"
+        },
+        {
+          "by": "S001",
+          "type": "comment",
+          "body": "已處理完成：更換 USB-C 轉 HDMI 轉接線後正常。",
+          "internal": false,
+          "at": "2026-06-22T10:11:39.914Z"
+        },
+        {
+          "by": "system",
+          "type": "system",
+          "body": "使用者確認後已關閉",
+          "internal": false,
+          "at": "2026-06-22T10:11:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0020",
+      "title": "電腦開機和開啟程式都變得很慢",
+      "description": "最近開機要 5 分鐘，開 Excel 也要等很久。",
+      "category": "作業系統",
+      "priority": "中",
+      "status": "已關閉",
+      "requesterId": "E1001",
+      "deviceId": "NB-0231",
+      "assigneeId": "S001",
+      "source": "form",
+      "createdAt": "2026-07-07T06:11:39.914Z",
+      "updatedAt": "2026-07-07T11:11:39.914Z",
+      "dueAt": "2026-07-08T06:11:39.914Z",
+      "resolvedAt": "2026-07-07T11:11:39.914Z",
+      "closedAt": "2026-07-07T11:11:39.914Z",
+      "rootCause": "磁碟空間不足",
+      "resolution": "清除暫存檔與 Windows.old 釋出 60GB，並停用 3 個開機啟動項，速度恢復。",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2026-07-07T06:11:39.914Z"
+        },
+        {
+          "by": "S001",
+          "type": "comment",
+          "body": "已處理完成：清除暫存檔與 Windows.old 釋出 60GB，並停用 3 個開機啟動項，速度恢復。",
+          "internal": false,
+          "at": "2026-07-07T11:11:39.914Z"
+        },
+        {
+          "by": "system",
+          "type": "system",
+          "body": "使用者確認後已關閉",
+          "internal": false,
+          "at": "2026-07-07T11:11:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0021",
+      "title": "Zoom 開會時麥克風沒有聲音",
+      "description": "別人聽不到我說話。",
+      "category": "軟體應用",
+      "priority": "低",
+      "status": "已關閉",
+      "requesterId": "E1008",
+      "deviceId": "NB-0233",
+      "assigneeId": "S001",
+      "source": "form",
+      "createdAt": "2026-07-12T06:11:39.914Z",
+      "updatedAt": "2026-07-12T07:11:39.914Z",
+      "dueAt": "2026-07-15T06:11:39.914Z",
+      "resolvedAt": "2026-07-12T07:11:39.914Z",
+      "closedAt": "2026-07-12T07:11:39.914Z",
+      "rootCause": "相機/麥克風隱私權設定被關閉",
+      "resolution": "開啟 Windows 隱私權設定中的麥克風存取後恢復。",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2026-07-12T06:11:39.914Z"
+        },
+        {
+          "by": "S001",
+          "type": "comment",
+          "body": "已處理完成：開啟 Windows 隱私權設定中的麥克風存取後恢復。",
+          "internal": false,
+          "at": "2026-07-12T07:11:39.914Z"
+        },
+        {
+          "by": "system",
+          "type": "system",
+          "body": "使用者確認後已關閉",
+          "internal": false,
+          "at": "2026-07-12T07:11:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0022",
+      "title": "印表機無法列印，一直顯示錯誤",
+      "description": "3 樓的共用印表機只有我印不出來。",
+      "category": "印表機/週邊",
+      "priority": "中",
+      "status": "已關閉",
+      "requesterId": "E1004",
+      "deviceId": "PC-0057",
+      "assigneeId": "S002",
+      "source": "form",
+      "createdAt": "2026-07-22T06:11:39.914Z",
+      "updatedAt": "2026-07-22T08:11:39.914Z",
+      "dueAt": "2026-07-23T06:11:39.914Z",
+      "resolvedAt": "2026-07-22T08:11:39.914Z",
+      "closedAt": "2026-07-22T08:11:39.914Z",
+      "rootCause": "印表機驅動程式錯誤",
+      "resolution": "移除舊驅動，安裝新版 PCL6 驅動並重設預設印表機。",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2026-07-22T06:11:39.914Z"
+        },
+        {
+          "by": "S002",
+          "type": "comment",
+          "body": "已處理完成：移除舊驅動，安裝新版 PCL6 驅動並重設預設印表機。",
+          "internal": false,
+          "at": "2026-07-22T08:11:39.914Z"
+        },
+        {
+          "by": "system",
+          "type": "system",
+          "body": "使用者確認後已關閉",
+          "internal": false,
+          "at": "2026-07-22T08:11:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0023",
+      "title": "在家無法連 VPN",
+      "description": "連線一直逾時。",
+      "category": "網路/VPN",
+      "priority": "中",
+      "status": "已關閉",
+      "requesterId": "E1007",
+      "deviceId": "NB-0305",
+      "assigneeId": "S002",
+      "source": "form",
+      "createdAt": "2026-07-22T06:11:39.914Z",
+      "updatedAt": "2026-07-22T08:11:39.914Z",
+      "dueAt": "2026-07-23T06:11:39.914Z",
+      "resolvedAt": "2026-07-22T08:11:39.914Z",
+      "closedAt": "2026-07-22T08:11:39.914Z",
+      "rootCause": "VPN 用戶端版本過舊",
+      "resolution": "更新 VPN 用戶端後即可連線。",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2026-07-22T06:11:39.914Z"
+        },
+        {
+          "by": "S002",
+          "type": "comment",
+          "body": "已處理完成：更新 VPN 用戶端後即可連線。",
+          "internal": false,
+          "at": "2026-07-22T08:11:39.914Z"
+        },
+        {
+          "by": "system",
+          "type": "system",
+          "body": "使用者確認後已關閉",
+          "internal": false,
+          "at": "2026-07-22T08:11:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0024",
+      "title": "電腦一直跳更新，卡在 30%",
+      "description": "更新好幾天都沒成功。",
+      "category": "作業系統",
+      "priority": "中",
+      "status": "已關閉",
+      "requesterId": "E1010",
+      "deviceId": "PC-0058",
+      "assigneeId": "S001",
+      "source": "form",
+      "createdAt": "2026-07-27T06:11:39.914Z",
+      "updatedAt": "2026-07-27T09:11:39.914Z",
+      "dueAt": "2026-07-28T06:11:39.914Z",
+      "resolvedAt": "2026-07-27T09:11:39.914Z",
+      "closedAt": "2026-07-27T09:11:39.914Z",
+      "rootCause": "Windows 更新未完成",
+      "resolution": "執行 Windows 更新疑難排解並重設更新元件後完成更新。",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2026-07-27T06:11:39.914Z"
+        },
+        {
+          "by": "S001",
+          "type": "comment",
+          "body": "已處理完成：執行 Windows 更新疑難排解並重設更新元件後完成更新。",
+          "internal": false,
+          "at": "2026-07-27T09:11:39.914Z"
+        },
+        {
+          "by": "system",
+          "type": "system",
+          "body": "使用者確認後已關閉",
+          "internal": false,
+          "at": "2026-07-27T09:11:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0025",
+      "title": "無法安裝 Adobe Acrobat",
+      "description": "安裝時顯示需要授權。",
+      "category": "軟體應用",
+      "priority": "低",
+      "status": "已關閉",
+      "requesterId": "E1006",
+      "deviceId": "NB-0190",
+      "assigneeId": "S002",
+      "source": "form",
+      "createdAt": "2026-08-06T06:11:39.914Z",
+      "updatedAt": "2026-08-06T09:11:39.914Z",
+      "dueAt": "2026-08-09T06:11:39.914Z",
+      "resolvedAt": "2026-08-06T09:11:39.914Z",
+      "closedAt": "2026-08-06T09:11:39.914Z",
+      "rootCause": "軟體授權未指派",
+      "resolution": "於授權系統指派 Acrobat Pro 授權後重新安裝。",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2026-08-06T06:11:39.914Z"
+        },
+        {
+          "by": "S002",
+          "type": "comment",
+          "body": "已處理完成：於授權系統指派 Acrobat Pro 授權後重新安裝。",
+          "internal": false,
+          "at": "2026-08-06T09:11:39.914Z"
+        },
+        {
+          "by": "system",
+          "type": "system",
+          "body": "使用者確認後已關閉",
+          "internal": false,
+          "at": "2026-08-06T09:11:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0026",
+      "title": "電腦很慢，硬碟快滿了",
+      "description": "系統一直提示空間不足。",
+      "category": "作業系統",
+      "priority": "中",
+      "status": "已關閉",
+      "requesterId": "E1009",
+      "deviceId": "NB-0119",
+      "assigneeId": "S001",
+      "source": "form",
+      "createdAt": "2026-08-11T06:11:39.914Z",
+      "updatedAt": "2026-08-11T10:11:39.914Z",
+      "dueAt": "2026-08-12T06:11:39.914Z",
+      "resolvedAt": "2026-08-11T10:11:39.914Z",
+      "closedAt": "2026-08-11T10:11:39.914Z",
+      "rootCause": "磁碟空間不足",
+      "resolution": "清理暫存檔並將舊資料移轉至網路磁碟。",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2026-08-11T06:11:39.914Z"
+        },
+        {
+          "by": "S001",
+          "type": "comment",
+          "body": "已處理完成：清理暫存檔並將舊資料移轉至網路磁碟。",
+          "internal": false,
+          "at": "2026-08-11T10:11:39.914Z"
+        },
+        {
+          "by": "system",
+          "type": "system",
+          "body": "使用者確認後已關閉",
+          "internal": false,
+          "at": "2026-08-11T10:11:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0027",
+      "title": "忘記密碼，無法登入電腦",
+      "description": "放完長假後忘記密碼。",
+      "category": "帳號/權限",
+      "priority": "低",
+      "status": "已關閉",
+      "requesterId": "E1004",
+      "deviceId": "PC-0057",
+      "assigneeId": "S001",
+      "source": "form",
+      "createdAt": "2026-08-21T06:11:39.914Z",
+      "updatedAt": "2026-08-21T07:11:39.914Z",
+      "dueAt": "2026-08-24T06:11:39.914Z",
+      "resolvedAt": "2026-08-21T07:11:39.914Z",
+      "closedAt": "2026-08-21T07:11:39.914Z",
+      "rootCause": "密碼過期",
+      "resolution": "協助重設密碼，並教導使用自助重設入口。",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2026-08-21T06:11:39.914Z"
+        },
+        {
+          "by": "S001",
+          "type": "comment",
+          "body": "已處理完成：協助重設密碼，並教導使用自助重設入口。",
+          "internal": false,
+          "at": "2026-08-21T07:11:39.914Z"
+        },
+        {
+          "by": "system",
+          "type": "system",
+          "body": "使用者確認後已關閉",
+          "internal": false,
+          "at": "2026-08-21T07:11:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0028",
+      "title": "電腦又變得很慢，Excel 開很久",
+      "description": "上次清理後沒多久又慢了，OneDrive 一直在同步。",
+      "category": "作業系統",
+      "priority": "中",
+      "status": "已關閉",
+      "requesterId": "E1001",
+      "deviceId": "NB-0231",
+      "assigneeId": "S001",
+      "source": "form",
+      "createdAt": "2026-08-26T06:11:39.914Z",
+      "updatedAt": "2026-08-26T14:11:39.914Z",
+      "dueAt": "2026-08-27T06:11:39.914Z",
+      "resolvedAt": "2026-08-26T14:11:39.914Z",
+      "closedAt": "2026-08-26T14:11:39.914Z",
+      "rootCause": "磁碟空間不足",
+      "resolution": "再次清理下載資料夾與 OneDrive 快取。同一台電腦已反覆發生，建議評估更換 1TB SSD。",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2026-08-26T06:11:39.914Z"
+        },
+        {
+          "by": "S001",
+          "type": "comment",
+          "body": "已處理完成：再次清理下載資料夾與 OneDrive 快取。同一台電腦已反覆發生，建議評估更換 1TB SSD。",
+          "internal": false,
+          "at": "2026-08-26T14:11:39.914Z"
+        },
+        {
+          "by": "system",
+          "type": "system",
+          "body": "使用者確認後已關閉",
+          "internal": false,
+          "at": "2026-08-26T14:11:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0029",
+      "title": "帳號被鎖定，無法登入",
+      "description": "早上輸入了幾次都失敗就被鎖住。",
+      "category": "帳號/權限",
+      "priority": "低",
+      "status": "已關閉",
+      "requesterId": "E1009",
+      "deviceId": "NB-0119",
+      "assigneeId": "S001",
+      "source": "form",
+      "createdAt": "2026-09-06T06:11:39.914Z",
+      "updatedAt": "2026-09-06T06:41:39.914Z",
+      "dueAt": "2026-09-09T06:11:39.914Z",
+      "resolvedAt": "2026-09-06T06:41:39.914Z",
+      "closedAt": "2026-09-06T06:41:39.914Z",
+      "rootCause": "帳號多次輸入錯誤被鎖定",
+      "resolution": "於 AD 解鎖，並提醒同步更新手機上儲存的舊密碼。",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2026-09-06T06:11:39.914Z"
+        },
+        {
+          "by": "S001",
+          "type": "comment",
+          "body": "已處理完成：於 AD 解鎖，並提醒同步更新手機上儲存的舊密碼。",
+          "internal": false,
+          "at": "2026-09-06T06:41:39.914Z"
+        },
+        {
+          "by": "system",
+          "type": "system",
+          "body": "使用者確認後已關閉",
+          "internal": false,
+          "at": "2026-09-06T06:41:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0030",
+      "title": "Wi-Fi 連不上，顯示已連線但無法上網",
+      "description": "今天早上到公司後，筆電一直上不了網。",
+      "category": "網路/VPN",
+      "priority": "中",
+      "status": "已解決",
+      "requesterId": "E1005",
+      "deviceId": "NB-0277",
+      "assigneeId": "S002",
+      "source": "form",
+      "createdAt": "2026-09-17T06:11:39.914Z",
+      "updatedAt": "2026-09-17T10:11:39.914Z",
+      "dueAt": "2026-09-18T06:11:39.914Z",
+      "resolvedAt": "2026-09-17T10:11:39.914Z",
+      "closedAt": null,
+      "rootCause": "DNS 快取異常",
+      "resolution": "清除 DNS 快取並重新加入 Wi-Fi，已可正常上網。",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2026-09-17T06:11:39.914Z"
+        },
+        {
+          "by": "S002",
+          "type": "comment",
+          "body": "已清除 DNS 快取並重新加入 Wi-Fi，請您確認是否恢復正常。",
+          "internal": false,
+          "at": "2026-09-17T10:11:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0031",
+      "title": "螢幕偶爾閃爍，移動螢幕角度時特別明顯",
+      "description": "這兩天螢幕會突然閃一下，蓋上再打開有時候會好。",
+      "category": "硬體",
+      "priority": "中",
+      "status": "處理中",
+      "requesterId": "E1002",
+      "deviceId": "NB-0118",
+      "assigneeId": "S001",
+      "source": "form",
+      "createdAt": "2026-09-18T06:11:39.914Z",
+      "updatedAt": "2026-09-18T09:11:39.914Z",
+      "dueAt": "2026-09-19T06:11:39.914Z",
+      "resolvedAt": null,
+      "closedAt": null,
+      "rootCause": "",
+      "resolution": "",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2026-09-18T06:11:39.914Z"
+        },
+        {
+          "by": "S001",
+          "type": "comment",
+          "body": "您好，我先看過設備資料，這台已超過保固。想請您方便時帶來 IT 櫃台，我們檢查螢幕排線。",
+          "internal": false,
+          "at": "2026-09-18T09:11:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0032",
+      "title": "VPN 一直斷線，每 10 分鐘就中斷",
+      "description": "在家上班時連上 VPN 大約 10 分鐘就會掉線。",
+      "category": "網路/VPN",
+      "priority": "中",
+      "status": "處理中",
+      "requesterId": "E1003",
+      "deviceId": "NB-0302",
+      "assigneeId": "S002",
+      "source": "form",
+      "createdAt": "2026-09-19T06:11:39.914Z",
+      "updatedAt": "2026-09-19T12:11:39.914Z",
+      "dueAt": "2026-09-20T06:11:39.914Z",
+      "resolvedAt": null,
+      "closedAt": null,
+      "rootCause": "",
+      "resolution": "",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2026-09-19T06:11:39.914Z"
+        },
+        {
+          "by": "S002",
+          "type": "comment",
+          "body": "已檢查您的帳號，VPN 權限正常。請先更新 GlobalProtect 至 6.2 再回報。",
+          "internal": false,
+          "at": "2026-09-19T09:11:39.914Z"
+        },
+        {
+          "by": "S002",
+          "type": "comment",
+          "body": "（內部）防毒病毒碼過舊，順便請他更新。",
+          "internal": true,
+          "at": "2026-09-19T12:11:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0033",
+      "title": "Outlook 開啟很慢，要等 2 分鐘",
+      "description": "每天早上打開 Outlook 都轉很久。",
+      "category": "電子郵件",
+      "priority": "中",
+      "status": "待處理",
+      "requesterId": "E1006",
+      "deviceId": "NB-0190",
+      "assigneeId": null,
+      "source": "form",
+      "createdAt": "2026-09-19T22:59:39.914Z",
+      "updatedAt": "2026-09-19T22:59:39.914Z",
+      "dueAt": "2026-09-20T22:59:39.914Z",
+      "resolvedAt": null,
+      "closedAt": null,
+      "rootCause": "",
+      "resolution": "",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2026-09-19T22:59:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0034",
+      "title": "Teams 視訊會議沒有畫面",
+      "description": "對方看不到我的影像，相機燈也沒亮。",
+      "category": "軟體應用",
+      "priority": "中",
+      "status": "等待使用者",
+      "requesterId": "E1008",
+      "deviceId": "NB-0233",
+      "assigneeId": "S002",
+      "source": "form",
+      "createdAt": "2026-09-18T06:11:39.914Z",
+      "updatedAt": "2026-09-18T09:11:39.914Z",
+      "dueAt": "2026-09-19T06:11:39.914Z",
+      "resolvedAt": null,
+      "closedAt": null,
+      "rootCause": "",
+      "resolution": "",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2026-09-18T06:11:39.914Z"
+        },
+        {
+          "by": "S002",
+          "type": "comment",
+          "body": "請問除了 Teams，用 Windows「相機」App 也看不到畫面嗎？請回覆結果，我再繼續協助。",
+          "internal": false,
+          "at": "2026-09-18T09:11:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0035",
+      "title": "印表機列印出來是亂碼",
+      "description": "列印 Word 檔案，出來一堆符號。",
+      "category": "印表機/週邊",
+      "priority": "低",
+      "status": "待處理",
+      "requesterId": "E1004",
+      "deviceId": "PC-0057",
+      "assigneeId": null,
+      "source": "form",
+      "createdAt": "2026-09-19T18:11:39.914Z",
+      "updatedAt": "2026-09-19T18:11:39.914Z",
+      "dueAt": "2026-09-22T18:11:39.914Z",
+      "resolvedAt": null,
+      "closedAt": null,
+      "rootCause": "",
+      "resolution": "",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2026-09-19T18:11:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0036",
+      "title": "電腦一直藍屏然後重開機",
+      "description": "今天上午已經發生兩次。",
+      "category": "硬體",
+      "priority": "高",
+      "status": "待處理",
+      "requesterId": "E1007",
+      "deviceId": "PC-0112",
+      "assigneeId": null,
+      "source": "form",
+      "createdAt": "2026-09-20T01:23:39.914Z",
+      "updatedAt": "2026-09-20T01:23:39.914Z",
+      "dueAt": "2026-09-20T09:23:39.914Z",
+      "resolvedAt": null,
+      "closedAt": null,
+      "rootCause": "",
+      "resolution": "",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "body": "報修單已建立",
+          "internal": false,
+          "at": "2026-09-20T01:23:39.914Z"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    },
+    {
+      "id": "INC-0037",
+      "title": "開機時網路連接很慢，大約要5分鐘wifi才會連上",
+      "description": "每天早上都遇到這問題",
+      "category": "網路/VPN",
+      "priority": "高",
+      "status": "待處理",
+      "requesterId": "E1001",
+      "deviceId": "NB-0231",
+      "assigneeId": null,
+      "source": "form",
+      "createdAt": "2026-09-20T06:29:04.860Z",
+      "updatedAt": "2026-09-20T06:29:04.860Z",
+      "dueAt": "2026-09-20T14:29:04.860Z",
+      "resolvedAt": null,
+      "closedAt": null,
+      "rootCause": "",
+      "resolution": "",
+      "comments": [
+        {
+          "by": "system",
+          "type": "system",
+          "internal": false,
+          "at": "2026-09-20T06:29:04.860Z",
+          "body": "報修單已建立"
+        }
+      ],
+      "aiSummary": null,
+      "transcript": null
+    }
+  ],
+  "conversations": [
+    {
+      "id": "Cmu9f5wjcdxkj",
+      "userId": "E1001",
+      "status": "open",
+      "createdAt": "2026-09-20T06:12:25.464Z",
+      "updatedAt": "2026-09-20T06:12:25.464Z",
+      "ticketId": null,
+      "messages": [
+        {
+          "role": "agent",
+          "text": "您好，張小明！我是 IT 小幫手。我已經找到登記在您名下的電腦（NB-0231，Dell Latitude 5440）。請直接描述您遇到的狀況，我會查詢您的電腦資料、維修履歷與全公司的維修記錄，幫您找出可能的原因與排除方式；若需要，我也可以幫您轉給客服人員。",
+          "at": "2026-09-20T06:12:25.464Z",
+          "actions": [
+            {
+              "label": "電腦變很慢",
+              "action": "say",
+              "value": "電腦變很慢"
+            },
+            {
+              "label": "無法連上 Wi-Fi",
+              "action": "say",
+              "value": "無法連上 Wi-Fi"
+            },
+            {
+              "label": "忘記密碼",
+              "action": "say",
+              "value": "忘記密碼"
+            },
+            {
+              "label": "印表機無法列印",
+              "action": "say",
+              "value": "印表機無法列印"
+            },
+            {
+              "label": "查詢我的報修進度",
+              "action": "say",
+              "value": "查詢我的報修進度"
+            }
+          ]
+        }
+      ],
+      "ctx": {
+        "problemText": "",
+        "deviceId": null,
+        "triedKb": [],
+        "pendingEscalate": false,
+        "shown": []
+      }
+    }
+  ],
+  "sessions": {
+    "7687aadd73152723645f308a2fafc104b678fd6fde998b72": {
+      "userId": "E1001",
+      "createdAt": 1789884721974
+    }
+  }
+}

@@ -4,19 +4,31 @@ IT 部門的客服網站：使用者可以**報修、提問**；**IT 小幫手�
 
 ## 啟動
 
-需要 Node.js 18 以上，不需安裝任何套件。
+需要 Node.js 18 以上，不需安裝任何套件。所有資料（使用者、電腦、報修單、留言、小幫手對話、知識庫、登入狀態）都存在 **Supabase**。
+
+### 1. 設定連線
+
+複製 `.env.example` 成 `.env`，填入 Supabase 專案的 `SUPABASE_URL`、`SUPABASE_KEY`、`SUPABASE_APP_SECRET`（說明見該檔）。
+
+### 2. 匯入範例資料（只需一次）
 
 ```bash
-node server.js
+npm run seed
 ```
 
-開啟 <http://localhost:3000>。第一次啟動會自動產生範例資料（`data/db.json`）。想回到初始資料：
+資料庫已有資料時會拒絕執行；想清空並回到初始範例資料：
 
 ```bash
 npm run reseed
 ```
 
-（要更換連接埠：PowerShell 執行 `$env:PORT=8080; node server.js`。）
+### 3. 啟動
+
+```bash
+node server.js
+```
+
+開啟 <http://localhost:3000>。（要更換連接埠：PowerShell 執行 `$env:PORT=8080; node server.js`。）
 
 ## 示範帳號
 
@@ -48,11 +60,13 @@ npm run reseed
 ```
 server.js            HTTP 伺服器與 API（無外部套件）
 lib/agent.js         診斷引擎與聊天流程（核心）
-lib/kb.js            知識庫（症狀關鍵字、原因、排除步驟）
+lib/kb.js            知識庫原始內容（由 seed 匯入 kb_articles 資料表）
 lib/seed.js          範例資料：使用者、電腦、歷史維修單
-lib/tickets.js       建立報修單、SLA
+lib/repo.js          資料存取層：Supabase 資料列 ↔ 應用程式物件
+lib/supabase.js      Supabase REST 用戶端（fetch，讀取 .env）
+lib/tickets.js       逾期判斷、留言物件
 lib/text.js          中文文字相似度
-lib/db.js            JSON 檔儲存（data/db.json）
+scripts/seed.js      把範例資料寫進 Supabase（npm run seed / reseed）
 public/              前端（原生 JS 模組，無需建置）
   js/pages-user.js   首頁、小幫手、報修、我的電腦、知識庫
   js/pages-ticket.js 報修單詳情（使用者／客服共用）
@@ -63,6 +77,7 @@ public/              前端（原生 JS 模組，無需建置）
 
 - **登入**：目前是點選帳號的示範登入，請改接公司 SSO／AD／Entra ID。
 - **資料**：`lib/seed.js` 的使用者與電腦為虛構資料，請改為匯入 AD 與資產管理系統（CMDB／Intune）；電腦健康資料（磁碟、電池、更新）應由 Intune／SCCM 定期回報。
-- **儲存**：JSON 檔適合示範與小量使用，正式環境請換成資料庫（SQLite／PostgreSQL）。
+- **資料庫權限**：目前用 publishable 金鑰加上 `x-app-secret` 密鑰，讓資料表的 RLS 只放行本伺服器。正式環境建議改用 service_role 金鑰（只放在伺服器 `.env`，`SUPABASE_APP_SECRET` 可留空），並移除資料表上的 `server only` policy。
+- **效能**：報修單列表、統計與小幫手診斷是把資料讀回伺服器後在程式裡計算，資料量到數千張以上時，請改成資料庫端的查詢／聚合（SQL 或 RPC）。
 - **通知**：尚未寄送 Email／Teams 通知。
 - **診斷**：目前是關鍵字＋相似度的規則式判斷，不需外部服務、結果可預期。若要更自然的對話，可把 `lib/agent.js` 的 `diagnose()` 當成工具，讓 LLM 負責對話與摘要。

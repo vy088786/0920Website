@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "start": "node server.js",
-    "reseed": "node -e \"require('fs').rmSync('data/db.json',{force:true});console.log('已清除資料，下次啟動會重新產生範例資料')\""
+    "seed": "node scripts/seed.js",
+    "reseed": "node scripts/seed.js --force"
   },
   "engines": {
     "node": ">=18"
